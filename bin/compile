@@ -35,7 +35,6 @@ for dep in \
   http://security.ubuntu.com/ubuntu/pool/main/n/nss/libnss3-dev_3.35-2ubuntu2.12_amd64.deb\
   http://security.ubuntu.com/ubuntu/pool/main/n/nss/libnss3_3.35-2ubuntu2.12_amd64.deb\
   http://security.ubuntu.com/ubuntu/pool/main/n/nspr/libnspr4_4.27-1_amd64.deb\
-  http://security.ubuntu.com/ubuntu/pool/main/g/glibc/glibc_2.31-0ubuntu11.debian.tar.xz\
   http://security.ubuntu.com/ubuntu/pool/main/g/glibc/libc6_2.31-0ubuntu11_amd64.deb
 do
   echo $dep
