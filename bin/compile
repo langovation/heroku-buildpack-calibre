@@ -24,7 +24,8 @@ unset PYTHONHOME
 
 python2.7 -c "execfile(\"/tmp/linux-installer.py\"); main(install_dir=\"$BUILD_DIR\", ignore_umask=True)" > /dev/null 2>&1
 
-apt-get install -y libnspr4, libc6
+apt-get install -y libnspr4\
+				   libc6
 
 # libGL dependency required for image processing
 echo "-----> Installing dependencies"
