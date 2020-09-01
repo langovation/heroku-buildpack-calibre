@@ -37,7 +37,8 @@ for dep in \
   http://security.ubuntu.com/ubuntu/pool/main/n/nss/libnss3-dev_3.35-2ubuntu2.12_amd64.deb\
   http://security.ubuntu.com/ubuntu/pool/main/n/nss/libnss3_3.35-2ubuntu2.12_amd64.deb\
   http://security.ubuntu.com/ubuntu/pool/main/n/nspr/libnspr4_4.27-1_amd64.deb\
-  http://security.ubuntu.com/ubuntu/pool/main/g/glibc/libc6_2.30-0ubuntu2_amd64.deb
+  http://security.ubuntu.com/ubuntu/pool/main/g/glibc/libc6_2.30-0ubuntu2_amd64.deb\
+  http://mirrors.tripadvisor.com/gnu/libc/glibc-2.30.tar.gz
 do
   echo $dep
   curl -OLs $dep
